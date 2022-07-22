@@ -98,7 +98,7 @@ color: red;
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   html,
   body {
     margin: 0;
