@@ -98,7 +98,7 @@ color: red;
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
   html,
   body {
     margin: 0;
@@ -144,5 +144,5 @@ color: red;
 
     .testimonials{
         text-align: center;
-}
+  }
 }
