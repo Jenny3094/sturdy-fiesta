@@ -22,54 +22,41 @@
     ></script>
   </head>
   <body>
-    <h1 class="ms-5">Hello World</h1>
-    <div class="mx-3 mb-5 purple">Margin on bot sides</div>
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-darken>
+        <a href="#" class="navbar-brand">
+          <img src="images/logo.png" width="30" height="24" alt="Sendbox logo">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
 
-    <div class="container mb-5">
-      <div class="row g-1 sm-2 g-2 lg-4">
-        <div class="col-6">
-          <div class="p-3 border bg-darken purple">Gutters</div>
-        </div>
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav ms-auto text-left">
+            <li>
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Home</a>
+            </li>
 
-        <div class="col-6">
-          <div class="p-3 border bg-darken">Gutters</div>
+          </ul>
         </div>
-
-        <div class="col-6">
-          <div class="p-3 border bg-darken">Gutters</div>
-        </div>
-
-        <div class="col-6">
-          <div class="p-3 border bg-darken">Gutters</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Carousel -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/pregnant-1.jfif" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/laughing.jfif" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/Carrying_baby.jfif" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/breastfeeding.jfif" class="d-block w-100" alt="...">
-        </div>
-
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      </nav>
     </div>
   </body>
 </html>
